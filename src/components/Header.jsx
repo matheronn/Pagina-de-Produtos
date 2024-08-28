@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+export default function Header() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -60,5 +60,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
