@@ -15,7 +15,8 @@ export default function CategoryPage({ category }){
 
   return (
     <div className='container my-10'>
-      <div className="flex flex-wrap justify-center gap-5">
+      <h2 className=''>{category}</h2>
+      <div className="flex flex-wrap justify-center gap-5 my-10">
         {products.map(product => (
           <ProductItem key={product.id} product={product} />
         ))}
