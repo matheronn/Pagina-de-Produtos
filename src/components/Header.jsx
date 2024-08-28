@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-black text-white p-4">
       <div className="container flex items-center justify-between">
           <Link to="/">
-            <img src="/lv.png" alt="" width="100"/>
+            <img src="/lv.png" alt="Logo Loja Virutal" width="100"/>
           </Link>
         <nav>
           <ul className="flex space-x-4 items-center">

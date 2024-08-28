@@ -2,25 +2,19 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className='bg-yellow-100'>
-      <div className='container flex justify-between items-center'>
-        <p>logo</p>
+    <footer className='bg-black text-white'>
+      <div className='container flex justify-between gap-6 items-center flex-col sm:flex-row'>
+        <img src="/lv.png" alt="Logo Loja Virtual" width="200"/>
         <div>
-          <h5>Atendimento</h5>
-          <p>Horário de atendimento:</p>
-          <p>08:00 às 20:00 -</p>
-          <p>Segunda a Sexta,</p>
-          <p>09:00 às 15:00 -</p>
-          <p>Sabado,</p>
-          <p>horário de Brasília</p>
+          <p>&copy; 2024 Loja Virtual. Todos os direitos reservados.</p>
         </div>
-        <div>
-          <h5>Endereço:</h5>
-            <p>Rua Lorem Ipsum, 1234 -</p>
-            <p>1° andar - Centro</p>
-            <p>São Paulo/SP - CEP: 12345-678</p>
-            <p>Central SAC:</p>
-            <p>(11) 1234-5678</p>
+        <div className='text-center space-y-4'>
+          <h5>Social:</h5>
+          <div className='flex space-x-2'>
+          <a href="https://www.facebook.com/"><img src="/social/facebook.webp" alt="Facebook logo" width="30"/></a>
+          <a href="https://www.instagram.com/"><img src="/social/instagram.webp" alt="Instagram logo" width="30"/></a>
+          <a href="https://www.tiktok.com/"><img src="/social/tiktok.webp" alt="Tiktok Logo" width="30"/></a>
+          </div>
         </div>
         <div>
           <h5>E-mail:</h5>
